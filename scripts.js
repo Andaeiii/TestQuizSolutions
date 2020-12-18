@@ -100,10 +100,17 @@ function sum(string) {
     );
   }
   
-  require("assert").equal(sum("iffy"), 220);
+  ///require("assert").equal(sum("iffy"), 220);
   
   console.log(
     sum(
       "Dealing with failure is easy: Work hard to improve. Success is also easy to handle: You’ve solved the wrong problem. Work hard to improve."
     )
   );
+
+  // test object functions.. 
+
+  users = {'name':'aminu','us2':'sadiatu','us3':'maimuna'};
+  const myobj = {users, 'aminu':'hello'};
+
+  console.log(myobj);
